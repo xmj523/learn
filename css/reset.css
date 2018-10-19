@@ -1,0 +1,12 @@
+body,div,p,form,span,ul,li,table,a{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 微软雅黑,Arial,Georgia;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,72 @@
+.fighting{
+    background:#f6f6f6;
+}
+/*banner图*/
+.fightBanner{
+    width:100%;
+    background: #000;
+}
+.bannerImg{
+    width:100%;
+    height:auto;
+    min-height:1rem;
+    opacity: 0.6;
+}
+.bannerText{
+    color:#fff;
+}
+/*内容区域*/
+.fightContentL{
+    width:74%;
+    float: left;
+}
+.fightContentR{
+    width:24%;
+    float: right;
+}
+.articleItem{
+    margin-top:0.2rem;
+    background:#fff;
+    padding:0.05rem 0.1rem 0.15rem 0.1rem;
+    color:#666;
+}
+.articleTitle{
+    font-size: 0.16rem;
+    font-weight: bold;
+    height:0.32rem;
+    line-height: 0.32rem;
+    color:#333;
+    width:100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.articleImg1{
+    height:1rem;
+    width:auto;
+    max-width: 1.5rem;
+    margin-right:0.1rem;
+    display: inline-block;
+}
+.articleWords{
+    display: inline-block;
+}
+.articleImg1 img,.articleImg2 img,.articleImg3 img{
+    width:100%;
+}
+.articleImg2{
+    display: none;
+}
+.articleImg3{
+    float:left;
+    width:calc((100% - 0.3rem)/3);
+}
+.articleImg3:nth-child(2){
+    margin:0 0.15rem;
+}
+.articleWords3{
+    float: left;
+    width:100%;
+}
+.articleWords1,.articleWords2,.articleWords3{
+    padding:0.08rem 0;
+}
