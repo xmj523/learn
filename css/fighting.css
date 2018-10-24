@@ -46,8 +46,11 @@
     max-width: 1.5rem;
     margin-right:0.1rem;
     display: inline-block;
+    float:left;
 }
 .articleWords{
+    float:left;
+    height:1rem;
     display: inline-block;
 }
 .articleImg1 img,.articleImg2 img,.articleImg3 img{
@@ -68,5 +71,72 @@
     width:100%;
 }
 .articleWords1,.articleWords2,.articleWords3{
-    padding:0.08rem 0;
+    padding:0.05rem 0;
+    line-height:0.2rem;
+}
+.articleMore{
+    margin-top:0.12rem;
+}
+
+.fightContentR{
+    margin-top:0.2rem;
+}
+.recommendModule,.picturesModule{
+    padding:0.05rem 0.1rem;
+    background:#fff;
+}
+.moduleTitle{
+    font-size:0.16rem;
+    height:0.36rem;
+    line-height: 0.32rem;
+    display: inline-block;
+    border-bottom:2px solid #333;
+}
+.moduleItems{
+    background:#f6f6f6;
+    margin-top:0.05rem;
+    padding:0.05rem 0.1rem;
+}
+.moduleItems li{
+    list-style: disc;
+    color: rgba(255, 0, 0, 0.8);
+    list-style-position: inside;
+    height:0.26rem;
+    line-height: 0.26rem;
+}
+.moduleItems li a{
+    color:#333;
+    cursor: pointer;
+}
+.moduleItems li a:hover{
+    color:red;
+}
+
+.modulePictures{
+    margin-top:0.05rem;
+}
+.modulePictures li{
+    float: left;
+    width:calc((100% - 0.1rem)/3);
+    margin-bottom:0.05rem;
+    height:0.7rem;
+}
+.modulePictures li:nth-child(3n-1){
+    margin-left:0.05rem;
+    margin-right:0.05rem;
+}
+.picturesModuleImg{
+    width:100%;
+    height:0.7rem;
+}
+.pictureProgram{
+    width:100%;
+    text-align: center;
+    padding-top:0.1rem;
+    background: #fff;
+    padding-bottom:0.2rem;
+}
+.pictureProgram img{
+    width:70%;
+    max-width: 2.6rem;
 }
