@@ -64,8 +64,11 @@
     padding-right:0.1rem;
 }
 .describeMyself p{
-    margin-bottom: 0.1rem;
+    margin-bottom: 0.15rem;
     text-indent: 0.28rem;
+    line-height: 0.28rem;
+    font-size: 0.15rem;
+    letter-spacing: 0.02rem;
 }
 
 .aboutContentR{
@@ -84,7 +87,7 @@
     margin-top:0.05rem;
 }
 .aboutMore li{
-    height:0.26rem;
+    /*height:0.26rem;*/
     line-height: 0.26rem;
 }
 .picturePersonal{
@@ -92,4 +95,31 @@
 }
 .picturePersonal img{
     width:0.5rem;
+}
+
+.leaveMessage{
+    margin-top: 0.5rem;
+}
+.leaveTitle{
+    float:left;
+    height:0.32rem;
+    line-height: 0.32rem;
+    width:1rem;
+    background:#8bbf5d;
+    border-left:3px solid #5aa315;
+    font-size: 0.16rem;
+    color:#fff;
+    text-align: center;
+}
+.leaveWords{
+    float: right;
+    height: 0.32rem;
+    line-height: 0.32rem;
+}
+.msgTextArea{
+    border:1px solid #ddd;
+    height:1.5rem;
+    width:100%;
+    padding:0.05rem;
+    resize: none;
 }
