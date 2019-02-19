@@ -1,0 +1,241 @@
+参考链接技巧：http://www.cnblogs.com/beast-king/p/5314523.html
+
+1.js小组件--可作为工作中可复用的代码或者面试作品
+	1、弹出层；
+		参考链接：http://aui.github.com/artDialog/
+	2、日历；
+		参考链接：http://www.my97.net/dp/demo/index.htm　mydate97
+		http://bbs.blueidea.com/thread-3043966-1-1.html 淘宝双日历
+		http://bbs.blueidea.com/thread-3101895-1-1.html 原生js日历
+	3、图片轮换；
+		参考链接：
+		SuperSlide2.1所有案例+TouchSlide1.0触屏滑动特效插件
+		http://bbs.blueidea.com/thread-3049362-1-1.html　轮换
+		http://bbs.blueidea.com/thread-3032305-1-1.html fgmcc经典作品
+	4、模拟滚动条；
+		参考链接：http://www.oschina.net/question/89964_62203
+	5、模拟select,联动；
+		参考链接：http://bbs.blueidea.com/thread-3009070-1-1.html
+		https://github.com/yessky/selector
+		强大的selector
+		http://aui.github.io/popupjs/doc/selectbox.html
+		糖饼 select
+		https://github.com/Johnqing/selectbox
+	6、js分页；
+		参考链接：http://bbs.blueidea.com/thread-3105789-1-1.html
+2.看源码：
+	1. ext
+		http://www.cnblogs.com/mogen_yin/archive/2009/04/30/1447236.html
+		ext 2.2 经典50篇 -- 阅读ext源码
+		http://www.cnblogs.com/gotolnc/archive/2009/03/10/1408063.html
+		blog　资源汇总
+		http://yahaitt.iteye.com/blog/193271
+		透析Extjs的Ext.js源码（五）分析继承的实现
+		http://www.cnblogs.com/peter-pc/articles/1612591.html
+		Ext源代码阅读-001
+		http://linder0209.iteye.com/category/58900
+		源码解读系列文章(一直在看)
+		http://snandy.iteye.com/category/124734
+		snandy ext系列文件(准备要看的)
+		http://liust1987.iteye.com/?page=2
+		ext源码系列(准备要看的)
+		http://linder0209.iteye.com/blog/1071818
+		ext源码分析(准备要看的)
+		http://blog.sina.com.cn/s/articlelist_1975505103_2_1.html
+		ext源码分析( 比较零散，必看部分 )
+		http://extasp.net
+		extasp.net框架结构
+		http://www.iteye.com/topic/195409 1111
+		ext继承 iteye
+		http://yiminghe.iteye.com/category/64527
+		何玉的iteyey
+		http://lionheart.iteye.com/blog/232776
+		js 继承
+		http://blog.csdn.net/zhangxin09
+		ext高手blog
+		http://www.cnblogs.com/sanshi/archive/2009/07/08/1519036.html
+		js继承
+		http://www.cnblogs.com/minakata/archive/2011/10/07/2199872.html
+		js高程继承
+		http://www.iteye.com/topic/1047795
+		ext其它扩展
+		http://www.iteye.com/topic/1120551?page=2
+		ext 2.3源码分析，bbs格式（其中有event对象的整理）
+		http://www.cnblogs.com/iamlilinfeng/category/385121.html
+		ext源码分析
+		http://setting.iteye.com/category/53053
+		ext基础教程
+		http://andy-ghg.iteye.com/blog/1133456
+		ext4的改变
+		http://www.cnblogs.com/fangsui/archive/2012/04/18/2455537.html
+		ext4开始
+		http://docs.sencha.com/ext-js/4-0/#!/api
+		ext在线api
+		http://www.aspxcs.net/HTML/094538320.html
+		ext体系结构
+		http://linder0209.iteye.com/blog/865331
+		ext文件结构
+		http://hi.baidu.com/study_discuss/blog/item/d3c28913f7cb64936438dbf8.html
+		extjs apply,applyif,override,extend 的区别
+		http://www.oecp.cn/hi/xuan/blog/page/2
+		ext源码
+		http://www.open-open.com/home/space.php?uid=135360&do=blog&id=11658
+		ext4.0基础概念与总结
+	2. prototype
+		http://blog.csdn.net/qgy18/article/details/673117
+		prototype源码阅读
+		http://www.cnblogs.com/NNUF/archive/2012/05/10/2494579.html
+		prototype 源码解读
+		http://www.cnblogs.com/cangqiong/archive/2007/12/21/1008801.html
+		prototype-1.4.0(转载)
+	3. qwarp
+		http://dev.qwrap.com/resource/js/_docs/_youa/#/content.htm
+		api
+		http://www.cnblogs.com/jkisjk/tag/QWrap/
+	4. mootools
+		http://www.cnblogs.com/oneroundseven/archive/2011/05/10/2041996.html
+		mootools 源码分析之 Core.js
+		http://suyang119.iteye.com/blog/1671065
+		Mootools源码分析
+		http://hmking.blog.51cto.com/3135992/675856
+		MooTools 1.4 源码分析 - Class 修正版
+	5. jquery 
+		http://james.padolsey.com/jquery/
+		jquery源码查询
+		http://www.cnblogs.com/edison1105/archive/2012/07/31/2617518.html
+		这些年、我收集的JQuery代码 
+		http://hxq0506.iteye.com/blog/1046334
+		jquery1.6中的.prop()和.attr()异同
+		http://www.cnblogs.com/zyj469470971/archive/2012/02/17/2355890.html
+		jquery选择器
+		http://www.cnblogs.com/sharpxiajun/archive/2011/09/22/2185566.html
+		临摹jquery
+		http://www.cnblogs.com/haogj/archive/2010/04/19/1715762.html
+		jquery原型关系图
+		http://www.ihiro.org/blog/wp-content/uploads/2010/08/sizzle_flow1.jpg
+		jquery选择器
+		http://www.cnblogs.com/lovesueee/archive/2012/10/18/2729829.html
+		jquery 1.8.2 源码分析
+		http://www.cnblogs.com/nuysoft/archive/2011/11/14/2248023.html
+		jquery 1.6源码分析
+		http://www.cnblogs.com/justany/archive/2013/01/22/2868501.html
+		jquery事件分析
+		http://www.cnblogs.com/hxling/
+		jQuery工作原理解析以及源代码示例
+		jquery easyui 作者
+		http://rapheal.sinaapp.com/
+		jquery源码阅读
+		http://www.ccvita.com/121.html 
+		http://www.blog.highub.com/decoding-jquery/
+		jquery源码阅读英文资料
+		http://www.cnblogs.com/nuysoft/
+		jquery源码阅读，这位作者出了一本书叫jquery技术内幕
+		http://item.jd.com/1080321026.html
+		http://adamed.iteye.com/category/207898
+		jq源代码阅读 
+		http://adamed.iteye.com/
+		jquery源码分析
+		http://www.cnblogs.com/krouky/archive/2011/12/27/Krouky.html
+		jquery框架分析
+		http://www.cnblogs.com/yaozhiyi/archive/2013/01/12/2855583.html
+		jquery源码　元素位置
+		http://www.oschina.net/news/46103/10-fresh-and-fantastic-jquery-plugins
+		10个jquery插件，里边有个jquery滚动条写的不错。
+		http://bbs.miaov.com/forum.php?mod=viewthread&tid=7385
+		http://www.miaov.com/2013/miaovideo/miaovideo.html
+		[知识点类] 妙味课堂：一起学习jQuery源码【逐行分析jQuery源码的奥秘】 
+		 http://www.cnblogs.com/aaronjs/p/3310937.html
+		jquery 2.0.3源码分析
+		http://www.cnblogs.com/aaronjs/p/3322466.html
+		jquery 2.0.3源码分析 分析Sizzle引擎 - 编译函数（大篇幅）
+		https://github.com/mythz/jquip
+		jquery 压缩版
+		http://www.cnblogs.com/aaronjs/p/3342344.html
+		jQuery 2.0.3 源码分析 回调对象 - Callbacks
+		http://bbs.miaov.com/forum.php?mod=viewthread&tid=7385
+		jquery源码解读-妙味
+		http://sunnylost.com/article/jquery.core1.html
+		jQuery 源码阅读
+		http://www.cnblogs.com/yangjunhua/
+		浅析jQuery基础框架 
+		http://www.ihiro.org/sizzle-custom-selector
+		sizzle源码
+		http://www.cnblogs.com/52cik/p/jquery-source-position.html
+		浅谈jQuery事件源码定位
+		http://www.cnblogs.com/suprise/p/3622760.html
+		jquery 1.11源码分析
+		http://blog.csdn.net/baozhifei/article/details/6959392
+		jQuery1.0源代码分析之domManip方法（七） 
+		http://blog.csdn.net/lihongxun945/article/category/1588879
+		jquery2.0.4源码分析
+		http://www.cnblogs.com/chyingp/category/546594.html
+		jQuery源码分析系列
+		http://www.cnblogs.com/baochuan/archive/2012/11/21/2781118.html
+		通过jQuery源码学习javascript（一）
+		http://pashanhu.github.io/show_by_tag.html?tag=jQuery
+		学习jQuery源码
+		http://www.zhihu.com/question/19671522?rf=20617754
+		jQuery资料知乎
+		http://www.cn-cuckoo.com/deconstructed/jquery.html
+		李松峰的解构
+		http://www.iteye.com/topic/786984
+		jquery1.43源码分析之动画部分
+		http://www.iteye.com/topic/783260
+		jquery 队列函数
+		http://www.cnblogs.com/guoyansi19900907/
+		jquery 源码分析-思思博士 
+	6. Backbone
+		http://www.cnblogs.com/hao-dotnet/p/3444575.html
+		Backbone源码阅读手记
+	7. seajs
+		http://seajs.org/docs/
+		seajs
+		http://www.cnblogs.com/yinshen/p/3190429.html
+		seajs源码分析
+		http://www.cnblogs.com/webstone/articles/3043119.html
+		seajs研究一二三
+		http://www.heiniuhaha.com/seajs/2012/08/14/seajs-combat/
+		seajs实战参考 Supporting tagline
+		http://panxuepeng.github.io/seajslib
+		SeaJS 组件库
+		https://github.com/seajs/seajs/issues
+		seajs issues
+
+		
+第一阶段：《JavaScript DOM编程艺术》　 
+　	看这本书之前，请先确认您对Javascript有个基本的了解，应该知道if else之类的语法，
+	如果不懂，先去看看我第二阶段推荐的《Javascript高级程序设计》的前三章，记住看三章
+	就别往下看了，回到《JavaScript DOM编程艺术》这本书上来。　　
+	学习Javascript用《JavaScript DOM编程艺术》来入门最好不过了，老老实实看两遍，
+	看完了你就会对JS有一个大概的了解，整本书都围绕着一个网页效果例子展开，你跟着老
+	老实实敲一篇，敲完之后，你会发现这个效果不是常在网页中看到么，发现自己也能做出来网上
+	的效果了，嘿嘿，小有成就感吧。
+
+第二阶段：《JavaScript高级程序设计》 
+　　有的书是用来成为经典的，比如犀牛书；还有些书是用来超越经典的，显然这本书就是这种。
+	书中章章经典，由浅入深，其中第6章，关于JS面向对象的解说，没有教程出其右。　　
+	如果有一场满分100分的JS考试，看了《JavaScript DOM编程艺术》能让你拿到20分，那么看
+	完这本书，你就能拿到60分以上了。学完后，你会成就感倍增的，相信我（至少看两遍，推荐三篇，
+	跟着书上的代码一行行的敲）。　　
+	这本书强烈推荐购买，写的太TMD牛逼了，给你带来的价值超过百倍千倍。　　
+	这本书最新的是第三版，貌似就是前些日子出来的，我看的是第二版，第三版相对第二版变动不大，
+	添加了几章内容，价格目前相差10元左右。　　
+	接下来，恭喜你可以下山了，这个时候可以自己做一些事情了你可以去Ferris这个教程看看他写
+	的这些效果，看看源代码，怎么样，是不是觉得有一部分很简单了，尝试着跟着他写一写这些效果吧。
+	学技术闭门造车是行不通的，适当的加一两个QQ群交流（注重质量），常去论坛逛逛，你会经常有
+	些小收获的。再有就是看看前辈这些牛人前辈们分享的文章，它会让你的学习事半功倍的，这里是
+	热心人收集的国内一些牛人的博客、个人网站，点这里。
+
+第三阶段：《JavaScript语言精粹》和《高性能JavaScript》　　 
+　　接下来两本书《JavaScript语言精粹》和《高性能JavaScript》算是JS高级教程的补充，里面有
+	一些内容和JS高级教程重复了，两本书可以同时看，都不厚，可以对前面所学的有一个很好的加强和巩固。
+	
+第四阶段：《JavaScript DOM高级程序设计》和《JavaScript设计模式》
+	在吃透了前面所说的书之后，接下来两本书的顺序已经无关紧要了，《JavaScript DOM高级程序设计》
+	（注意和《JavaScript 高级程序设计》相区别）和《JavaScript设计模式》，这两本都是重量级的书，
+	能让你的JS技术上一个新的台阶；这两本书前者主修炼外功，后者主修炼内功，有点想乾坤大挪移和九
+	阳神功的关系。　　
+	《JavaScript DOM高级程序设计》 首先教你搭建一个类似JQuery的额工具函数库，然后通过讲解几个
+	实际中经常遇到的几个应用例子，会让初学者受益匪浅。　　
+	《JavaScript设计模式》主要讲Javascript的设计模式，说实话，翻译的质量很一般，有些生硬，但已
+	经基本不影响你的学习，看代码完全可以理解出自己的意思。
