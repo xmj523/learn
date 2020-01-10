@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--设备大小~以及缩放比例-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <!--禁止将数字变为电话号码-->
+    <meta name="format-detection" content="telephone=no" />
+    <!--iphone设备中的safari私有meta标签允许用户全屏浏览-->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!--iphone的私有标签，可以设置default白，black黑，black-translucent半透明灰色-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="Description" Content="" />
+    <meta name="keywords" content="" />
+
+    <title>snow</title>
+    <style>
+        body,html{
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        .snow{
+            background: #fff;
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+    // 获取屏幕宽高
+    var deviceWidth = window.screen.width;
+    var deviceHeight = window.screen.height;
+    // 创建雪花
+    function createSnow() {
+        var left = 0;
+        var top = 0;
+        // 定义一个初始化随机数，使雪花在屏幕汇总
+        var leftRandom = Math.random() * deviceWidth;
+        var topRandom = Math.random() * deviceHeight;
+        var div = document.createElement('div');
+        div.className = 'snow';
+        div.style.transform = 'scale('+ Math.random() +')';
+        document.body.appendChild(div);
+
+        // 雪花飘落
+        setInterval(function () {
+            div.style.left = leftRandom + left + 'px';
+            div.style.top = topRandom + top + 'px';
+            /*left += 0.02;*/
+            top += 0.3;
+
+            // 如果雪花跑到了屏幕外面，让雪花重新回到顶部
+            if(leftRandom + left >= deviceWidth){
+                leftRandom = Math.random();
+                left = 0;
+            }
+            if(topRandom + top >= deviceHeight){
+                topRandom = Math.random();
+                top = 0;
+            }
+        }, 10);
+    }
+    for(var i=0;i<200;i++){
+        createSnow();
+    }
+</script>
+</html>
