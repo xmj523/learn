@@ -148,6 +148,10 @@ body{
     width:100%;
     position: relative;
 }
+.bannerWrap img{
+    max-width: 100%;
+    height: auto;
+}
 .bannerText{
     width:50%;
     margin:0 auto;
